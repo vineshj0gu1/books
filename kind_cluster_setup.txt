@@ -14,6 +14,8 @@ chmod +x ./kubectl
 
 sudo mv ./kubectl /usr/local/bin/kubectl
 
+sudo sysctl net/netfilter/nf_conntrack_max=131072
+
 
 ============configfile====================
 # three node (two workers) cluster config
